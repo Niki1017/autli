@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #fff;
+    min-height: 100vh;
+}
+header{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+.logo{
+    color: #112434;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.navigation li{
+    list-style: none;
+}
+ .navigation li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #112434;
+    border-radius: 20px;
+}
+.navigation li a:hover,
+.navigation li a.active{
+    background: #112434;
+    color: #fff;
+}
+.albom img{
+    margin: 30px;
+    width: 300px;
+    border-radius: 30px;
+}
+.anime-card{
+    margin: 60px;
+}
+.card{    
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    background: blue;
+    border-radius: 30px 30px 30px 30px;
+}
+.card img{
+    display: block;
+    width: 300px;
+    border-radius: 30px 30px 0px 0px;
+}
+.anime-card h2{
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: white 1px 0 10px;}
+.anime-card p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.info{
+    position: relative;
+    text-align: center;
+}
+
+/* ------------ дальше по наведению ------------ */
+
+.info:hover .cardInfo {
+    transform: translateY(-10%) translateX(-50%);
+    transition: .5s;
+    opacity: 1;
+}
+.cardInfo {    
+    width: 90%;
+    transform: translateY(100%) translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.545);
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    padding: 25px;
+    box-sizing: border-box;
+    opacity: 0;
+    border-radius: 25px;
+}
+.cardInfo p{
+    margin-bottom: 25px;
+}
+.cardInfo a{
+    text-decoration: none;
+    color: white;
+    background: blue;
+    padding: 10px;
+    border-radius: 15px;
+}
