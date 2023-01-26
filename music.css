@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -91,6 +92,7 @@ header{
     font-size: 20px;
 }
 .info{
+    overflow: hidden;
     position: relative;
     text-align: center;
 }
@@ -118,6 +120,7 @@ header{
     margin-bottom: 25px;
 }
 .cardInfo a{
+    font-family: 'Cookie', cursive;    
     text-decoration: none;
     color: white;
     background: blue;
