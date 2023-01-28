@@ -5,6 +5,7 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
+    height: 100%;
     margin: 0;
     background: linear-gradient(-45deg, #9400fd, #f500b4, #0410f6);
     background-size: 400% 400%;
@@ -65,24 +66,56 @@ main{
     /* background: rgba(128, 128, 128, 0.314); */
     width: 90%;
 }
-.info{
+.container .card{
+    margin: auto;
+  }
+  .card{
+    text-align: center;
+    background: #222222;
     width: 400px;
-    gap: 40px;
-    /* background: gold; */
-
-}
-.info img{
-    width: 150px;
-    margin: 30px;
+    height: 620px;
+    margin-top: 20%;
     border-radius: 25px;
-}
-.info h1{
-    position: absolute;
+  }
+  .card p{
+    color: #BDBDBD;  
+    text-align: center;
+    line-height: 25px;
+  }
+  .card li{
     display: inline-block;
-    margin-top: 50px;
-}
-.info p{
-    position: absolute;
+    margin-top: 35px;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .card a{
+    /* color: #4CB493; */
+    padding: 20px;
+    border-radius: 50%;
+  }
+  .card li a{
+    color: #4CB493;}
+  .header img{
     display: inline-block;
-    margin-top: 100px;
-}
+    background-color: bisque;
+    width: 100px;
+    margin: 25px;
+    border: 10px solid #ffe375;
+    border-radius: 50%;
+  }
+  .header h1{
+    text-align: center;
+    color: #BDBDBD;
+    margin-bottom: 15px;
+  }
+  .header h1:hover{
+    text-decoration: underline #fff;
+  }
+  .header span{
+    display: block;
+    font-size: 14px;
+    color: #4CB493;
+      letter-spacing: 2px;
+    margin-bottom: 15px;
+  }
