@@ -66,3 +66,57 @@ main{
     /* background: rgba(128, 128, 128, 0.314); */
     width: 90%;
 }
+.container .card{
+    margin: auto;
+  }
+  .card{
+    text-align: center;
+    background: #222222;
+    width: 400px;
+    height: auto;
+    padding-bottom: 30px;
+    margin-top: 20%;
+    border-radius: 25px;
+  }
+  .card p{
+    color: #BDBDBD;  
+    text-align: center;
+    line-height: 30px;
+  }
+  .card li{
+    display: inline-block;
+    margin-top: 35px;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .card a{
+    /* color: #4CB493; */
+    padding: 20px;
+    border-radius: 50%;
+  }
+  .card li a{
+    color: #4CB493;}
+  .header img{
+    display: inline-block;
+    background-color: bisque;
+    width: 100px;
+    margin: 25px;
+    border: 10px solid #ffe375;
+    border-radius: 50%;
+  }
+  .header h1{
+    text-align: center;
+    color: #BDBDBD;
+    margin-bottom: 15px;
+  }
+  .header h1:hover{
+    text-decoration: underline #fff;
+  }
+  .header span{
+    display: block;
+    font-size: 14px;
+    color: #4CB493;
+      letter-spacing: 2px;
+    margin-bottom: 15px;
+  }

@@ -192,3 +192,36 @@ header{
       font-size: 16px;
     }
   }
+
+main{
+  text-align: center;
+}
+
+.biographya{
+  position: absolute;
+  padding: 20px;
+  width: 80%;
+  background: rgb(18, 18, 18);
+  border-radius: 20px;
+}
+.biographya h1{
+  color: #FFF;
+  margin-bottom: 15px;
+  margin-left: 30px;
+  text-align: left;
+}
+.biographya p{
+  color: #FFF;
+  position: absolute;
+  font-size: 15px;
+  width: 70%;
+  text-align: left;
+  margin-left: 30px;
+  line-height: 22px;
+}
+.photo{
+  float: right;
+  width: 250px;
+  padding-top: 60px;
+  border-radius: 500px;
+}
