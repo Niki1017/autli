@@ -198,9 +198,10 @@ main{
 }
 
 .biographya{
-  position: absolute;
   padding: 20px;
   width: 80%;
+  margin: auto;
+  margin-bottom: 30px;
   background: rgb(18, 18, 18);
   border-radius: 20px;
 }
@@ -212,7 +213,6 @@ main{
 }
 .biographya p{
   color: #FFF;
-  position: absolute;
   font-size: 15px;
   width: 70%;
   text-align: left;

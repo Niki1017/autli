@@ -28,7 +28,7 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 30px 100px;
+    /* padding: 30px 100px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,8 +43,10 @@ header{
 .navigation{
     display: flex;
     justify-content: center;
+    position: absolute;
     align-items: center;
     gap: 40px;
+    opacity: 0;
 }
 .navigation li{
     list-style: none;
@@ -66,7 +68,7 @@ main{
     /* background: rgba(128, 128, 128, 0.314); */
     width: 90%;
 }
-.container .card{
+.card{
     margin: auto;
   }
   .card{
@@ -119,3 +121,15 @@ main{
       letter-spacing: 2px;
     margin-bottom: 15px;
   }
+@media (max-width: 633px) {
+    label{
+      display: block;
+      width: 50px;
+      height: 50px;
+      background: pink;
+    }
+#check{
+  position: absolute;
+  opacity: 0;
+}
+}
