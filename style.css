@@ -137,6 +137,15 @@ main {
 
 @media(max-width: 600px) {
 
+  .logo{
+    margin: 20px;
+  }
+
+  .card{
+    width: 340px;
+    height: 620px;
+  }
+
   .header span {
     display: block;
     font-size: 14px;
@@ -228,6 +237,7 @@ main {
   label input:checked+.menu+ul {
     opacity: 1;
     margin-top: 150px;
+    list-style-type: none;
   }
 
   label ul {
