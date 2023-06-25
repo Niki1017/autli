@@ -75,12 +75,14 @@ header {
 
 main {
   margin: auto;
+  text-align: center;
   margin-top: 25px;
   /* background: rgba(128, 128, 128, 0.314); */
   width: 90%;
 }
 .musicant-img{
   position: absolute;
+  left: 50px;
   margin-top: 150px;
 }
 .card {
@@ -164,8 +166,13 @@ label ul{
   margin-top: -450px;
 }
 .image-center{
+  display: inline-block;
   margin-top: 30px;
-  text-align: center;
+  margin: auto;  
+  transition: .8s;
+}
+.image-center:hover{
+  transform: rotate(360deg);
 }
 .vopros{
   transform: rotate(45deg);  
