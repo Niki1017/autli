@@ -47,6 +47,23 @@ header{
     background: #112434;
     color: #fff;
 }
+label input{
+  opacity: 0;
+}
+label li{
+  list-style-type: none;
+  display: inline-block;
+}
+label li a{
+  text-decoration: none;
+  color: #112434;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+label ul{
+  margin-right: 60px;
+}
+
 .ag-format-container {
     width: 1142px;
     margin: 0 auto;
