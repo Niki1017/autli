@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(-45deg, #9400fd, #f500b4, #0410f6);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+@keyframes gradient{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+
+header{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+.logo{
+    color: #112434;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.navigation li{
+    list-style: none;
+}
+ .navigation li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #112434;
+    border-radius: 20px;
+}
+.navigation li a:hover,
+.navigation li a.active{
+    background: #112434;
+    color: #fff;
+}
+main{
+    margin: auto;
+    margin-top: 25px;
+    /* background: rgba(128, 128, 128, 0.314); */
+    width: 90%;
+}
+.container .card{
+    margin: auto;
+  }
+  .card{
+    text-align: center;
+    background: #222222;
+    width: 400px;
+    height: auto;
+    padding-bottom: 30px;
+    margin-top: 20%;
+    border-radius: 25px;
+  }
+  .card p{
+    color: #BDBDBD;  
+    text-align: center;
+    line-height: 30px;
+  }
+  .card li{
+    display: inline-block;
+    margin-top: 35px;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .card a{
+    /* color: #4CB493; */
+    padding: 20px;
+    border-radius: 50%;
+  }
+  .card li a{
+    color: #4CB493;}
+  .header img{
+    display: inline-block;
+    background-color: bisque;
+    width: 100px;
+    margin: 25px;
+    border: 10px solid #ffe375;
+    border-radius: 50%;
+  }
+  .header h1{
+    text-align: center;
+    color: #BDBDBD;
+    margin-bottom: 15px;
+  }
+  .header h1:hover{
+    text-decoration: underline #fff;
+  }
+  .header span{
+    display: block;
+    font-size: 14px;
+    color: #4CB493;
+      letter-spacing: 2px;
+    margin-bottom: 15px;
+  }
