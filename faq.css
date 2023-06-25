@@ -152,6 +152,8 @@ p {
   @media(max-width: 600px) {
 
     .logo{
+      position: absolute;
+      left: 20px;
       margin: 20px;
     }
   

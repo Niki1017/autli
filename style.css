@@ -125,6 +125,14 @@ main {
   border-radius: 50%;
 }
 
+.header span {
+  display: block;
+  font-size: 14px;
+  color: #4CB493;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
 .header h1 {
   text-align: center;
   color: #BDBDBD;
@@ -144,14 +152,6 @@ main {
   .card{
     width: 340px;
     height: 620px;
-  }
-
-  .header span {
-    display: block;
-    font-size: 14px;
-    color: #4CB493;
-    letter-spacing: 2px;
-    margin-bottom: 15px;
   }
 
   label .menu {
